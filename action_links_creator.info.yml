@@ -1,0 +1,5 @@
+name: 'Action links creator'
+type: module
+description: 'A module that generates action links to create nodes of any CT'
+package: Custom
+core_version_requirement: ^10 || ^11
