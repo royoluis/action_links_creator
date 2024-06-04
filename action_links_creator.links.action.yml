@@ -1,0 +1,3 @@
+action_links.local_tasks:
+  deriver: 'Drupal\action_links_creator\Plugin\Derivative\DynamicActionLinks'
+  weight: 100
