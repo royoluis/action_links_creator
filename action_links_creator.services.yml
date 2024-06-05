@@ -1,0 +1,4 @@
+services:
+  action_links_creator.content_type_service:
+    class: 'Drupal\action_links_creator\Service\ContentTypeService'
+    arguments: ['@entity_type.manager']
