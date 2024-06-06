@@ -71,11 +71,14 @@ class ConfigForm extends ConfigFormBase {
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
     $content_types = $this->contentTypeService->getAllContentTypes();
+
+    $config = $this->config('action_links_creator.configuration');
       
     foreach ($content_types as $content_type => $content_type_label) {
       $form['checkbox_' . $content_type] = [
         '#type' => 'checkbox',
         '#title' => $this->t($content_type_label),
+        '#default_value' => $config->get('checkbox_' . $content_type)
       ];
     }
 
