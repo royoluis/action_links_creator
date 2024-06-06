@@ -2,6 +2,7 @@ action_list_creator.config_form:
   path: '/action_list_creator/form'
   defaults:
     _form: '\Drupal\action_links_creator\Form\ConfigForm'
+    _title: 'Action links creator settings'
   requirements: 
     _permission: 'access content'
   options:
