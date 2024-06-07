@@ -1,5 +1,5 @@
 action_list_creator.config_form:
   title: 'Action links creator settings'
-  description: 'Configure the display of actions links to create nodes'
+  description: 'Configure the display of action links to create nodes'
   route_name: action_list_creator.config_form
   parent: 'system.admin_config_development'
