@@ -98,6 +98,17 @@ class ConfigForm extends ConfigFormBase {
         '#title' => $this->t($content_type_label),
         '#default_value' => $config->get('checkbox_' . $content_type)
       ];
+  
+      $form['label_' . $content_type] = [
+        '#type' => 'textfield',
+        '#title' => $this->t('Link text'),
+        '#default_value' => $config->get('checkbox_' . $content_type) ? $config->get('label_' . $content_type) : $this->t('Add ' . $content_type_label),
+        '#states' => [
+          'visible' => [
+            ':input[name="checkbox_' . $content_type . '"]' => ['checked' => TRUE],
+          ],
+        ],
+      ];
     }
 
     return parent::buildForm($form, $form_state);
