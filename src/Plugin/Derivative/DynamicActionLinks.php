@@ -65,8 +65,9 @@ class DynamicActionLinks extends DeriverBase implements ContainerDeriverInterfac
     foreach ($content_types as $content_type_machine_name => $content_type_label)  {
       $activate = $config->get('checkbox_' . $content_type_machine_name);
       if ($activate == 1) {
+        $link_title = $config->get('label_' . $content_type_machine_name);
         $this->derivatives['action_links.' . $content_type_machine_name] = $base_plugin_definition;
-        $this->derivatives['action_links.' . $content_type_machine_name]['title'] = 'Add new ' . $content_type_label;
+        $this->derivatives['action_links.' . $content_type_machine_name]['title'] = $link_title;
         $this->derivatives['action_links.' . $content_type_machine_name]['route_name'] = 'node.add';
         $this->derivatives['action_links.' . $content_type_machine_name]['appears_on'][] = 'system.admin_content';
         $this->derivatives['action_links.' . $content_type_machine_name]['route_parameters']['node_type'] = $content_type_machine_name;
