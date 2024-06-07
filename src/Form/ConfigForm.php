@@ -109,6 +109,17 @@ class ConfigForm extends ConfigFormBase {
           ],
         ],
       ];
+
+      $form['weight_' . $content_type] = [
+        '#type' => 'number',
+        '#title' => $this->t('Weight'),
+        '#default_value' => $config->get('checkbox_' . $content_type) ? $config->get('weight_' . $content_type) : 1,
+        '#states' => [
+          'visible' => [
+            ':input[name="checkbox_' . $content_type . '"]' => ['checked' => TRUE],
+          ],
+        ],
+      ];
     }
 
     return parent::buildForm($form, $form_state);
