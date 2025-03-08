@@ -1,4 +1,4 @@
-name: 'Action links creator'
+name: 'Action Links Creator'
 type: module
 description: 'A module that generates action links to create nodes of any CT'
 package: Custom
