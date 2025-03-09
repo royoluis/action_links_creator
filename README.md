@@ -29,4 +29,7 @@
 <p>Weight one will be the first, then the second, and so on.</p>
 <h2>How to delete the custom buttons we have created</h2>
 <p>It's also very easy. Just go to <b>admin/config/development/action_list_creator</b>, uncheck "Event" and "Multimedia" and <b>save</b>.</p>
-<p>Feel free to use and share this custom module.</p>
+<h2>Installation</h2>
+<p>Install as you would normally install a contributed Drupal module.</p>
+<p>See: https://www.drupal.org/node/895232 for further information.</p>
+<p>Feel free to share and use this custom module.</p>
