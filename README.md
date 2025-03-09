@@ -1,5 +1,5 @@
 <h1>Module description and functionality</h1>
-<p>This module allows you add custom buttons to create new nodes near "+Add content" button in Content Administration section.</p> 
+<p>This module allows you to add custom buttons to create new nodes near "+Add content" button in the Content Administration section.</p> 
 
 ![image](https://github.com/user-attachments/assets/f4d85849-ceb1-47a1-9c7b-2a5a24f7c9a3)
 <h2>Example</h2>
@@ -15,7 +15,7 @@
 
   ![image](https://github.com/user-attachments/assets/d4835ced-c946-4abb-a210-5460ff70497f)
   
-  <li>Click on <b>"Save configuration"</b>-</li></br>
+  <li>Click on <b>"Save configuration"</b>.</li></br>
   
   <li>Both buttons are ready near "+Add content".</li>
 
