@@ -21,6 +21,12 @@
 
   ![image](https://github.com/user-attachments/assets/b378bf92-3b54-4513-8179-91b95ebc8928)
 </ol>
+<h2>How to reorder our custom buttons</h2>
+<p>It's very easy. Just go to <b>admin/config/development/action_list_creator</b> and configure the weight values as needed.</p>
+
+![image](https://github.com/user-attachments/assets/c23c4143-245a-4335-90be-47c1647a1038)
+
+<p>Weight one will be the first, then the second, and so on.</p>
 <h2>How to delete the custom buttons we have created</h2>
-<p>It's very easy. Justo go to <b>admin/config/development/action_list_creator</b>, uncheck "Event" and "Multimedia" and <b>save</b>.</p>
+<p>It's also very easy. Just go to <b>admin/config/development/action_list_creator</b>, uncheck "Event" and "Multimedia" and <b>save</b>.</p>
 <p>Feel free to use and share this custom module.</p>
